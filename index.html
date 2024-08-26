@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Nombres de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Nombres de Mascotas</h1>
+        
+        <label for="tipoMascota">Tipo de mascota:</label>
+        <select id="tipoMascota">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="exotico">Exótico</option>
+        </select>
+
+        <label for="generoMascota">Género de la mascota:</label>
+        <select id="generoMascota">
+            <option value="macho">Macho</option>
+            <option value="hembra">Hembra</option>
+        </select>
+
+        <label for="gustosMusicales">Gustos musicales del dueño:</label>
+        <select id="gustosMusicales">
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="clasica">Clásica</option>
+            <option value="reggaeton">Reggaetón</option>
+            <option value="electro">Electrónica</option>
+        </select>
+
+        <label for="hobbies">Hobby favorito del dueño:</label>
+        <select id="hobbies">
+            <option value="deporte">Deportes</option>
+            <option value="lectura">Lectura</option>
+            <option value="viajes">Viajar</option>
+            <option value="juegos">Videojuegos</option>
+            <option value="arte">Arte</option>
+        </select>
+
+        <button onclick="generarNombre()">Generar Nombre</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
